@@ -137,8 +137,6 @@ a:hover { color: rgb(209, 175, 115); }
   }
 }
 
-
-
 /* Censured text */
 .text-decript span::before {
   content: '';
@@ -172,11 +170,11 @@ a:hover { color: rgb(209, 175, 115); }
    38% {content: 'ᛠ ᚳ ᛡ ᚢ ᛒ ᚳ ᛋ ᚠ ᛡ ᚣ ᛠ ᚳ ᛋ ᛠ ᚢ ᚣ ᛡ ᛠ ᚳ ᚣ';}
    40% {content: 'ᚢ ᚳ ᛡ ᚦ ᛒ ᚣ ᚢ ᚳ ᛡ ᛠ ᚢ ᛡ ᚦ ᛠ ᚳ ᚣ ᚢ ᛡ ᛠ ᚳ';}
    42% {content: 'ᚢ ᚳ ᚳ ᛡ ᛒ ᛉ ᚢ ᚣ ᚳ ᛡ ᚦ ᛠ ᚢ ᚣ ᚳ ᛡ ᛠ ᚢ ᚣ ᚳ';}
-   44% {content: 'ᚳ ᚢ ᛡ ᚦ ᛠ ᛒ ᚣ ᚢ ᛡ ᛠ ᚳ ᚢ ᚳ ᛡ ᚦ ᛠ ᚣ ᚢ ᚳ ᛡ';}
-   46% {content: 'ᛡ ᚳ ᚢ ᛡ ᚦ ᛒ ᚳ ᚣ ᚢ ᛡ ᛠ ᚳ ᚢ ᚳ ᛡ ᚦ ᛠ ᚣ ᚢ ᚳ';}
-   48% {content: 'ᚳ ᛡ ᚠ ᚦ ᚢ ᛡ ᛒ ᛋ ᚳ ᚣ ᚢ ᛡ ᛋ ᚳ ᚢ ᚳ ᛡ ᚦ ᛋ ᚢ';}
-   50% {content: 'ᚢ ᚳ ᚠ ᚦ ᚳ ᚢ ᛒ ᚦ ᛋ ᚳ ᚣ ᚢ ᛡ ᛋ ᚳ ᚢ ᚳ ᛡ ᚦ ᛋ';}
-   58% {content: '∇ ᚣ ᚢ ᚳ ᛡ ᚳ ᚢ ᛒ ᚦ ᚣ ᚢ ᛡ ᚹ ᚳ ᚳ ᚢ ᚳ ᛡ ᚦ ᛋ';}
+   44% {content: 'ᚢ ᛡ ᚦ ᛠ ᛒ ∇ ᚣ ᚢ ᛡ ᛠ ᚳ ᚢ ᚳ ᛡ ᚦ ᛠ ᚣ ᚢ ᚳ ᛡ';}
+   46% {content: 'ᚳ ᚢ ᛡ ᚦ ᛒ ∇ ᚳ ᚣ ᚢ ᛡ ᛠ ᚳ ᚢ ᚳ ᛡ ᚦ ᛠ ᚣ ᚢ ᚳ';}
+   48% {content: 'ᛡ ᚠ ᚦ ᚢ ᛡ ∇ ᛒ ᛋ ᚳ ᚣ ᚢ ᛡ ᛋ ᚳ ᚢ ᚳ ᛡ ᚦ ᛋ ᚢ';}
+   50% {content: 'ᚳ ᚠ ᚦ ᚳ ᚢ ∇ ᛒ ᚦ ᛋ ᚳ ᚣ ᚢ ᛡ ᛋ ᚳ ᚢ ᚳ ᛡ ᚦ ᛋ';}
+   58% {content: 'ᚣ ᚢ ᚳ ᛡ ᚳ ∇ ᚢ ᛒ ᚦ ᚣ ᚢ ᛡ ᚹ ᚳ ᚳ ᚢ ᚳ ᛡ ᚦ ᛋ';}
    66% {content: 'ᚣ ᚢ ᚳ ᛡ ᛋ ᚠ ᚦ ᛒ ᚳ ᚣ ᚢ ᛡ ᛡ ᚳ ᚢ ᚳ ᛡ ᚦ ᚦ ᛠ';}
    70% {content: 'ᚣ ᚢ ᚦ ᛠ ᚳ ᚣ ᚢ ᚳ ᛒ ᚳ ᚢ ᛠ ᛡ ᛡ ᛋ ᚦ ᚳ ᛡ ᚦ ᛠ';}
    74% {content: 'ᛡ ᛋ ᛇ ᚳ ᛠ ᛝ ᛏ ᚠ ᛒ ᚹ ᚢ ᚦ ᛡ ᚢ ᚳ ᛋ ᚠ ᛇ ᛠ ᚳ';}
@@ -223,8 +221,6 @@ a:hover { color: rgb(209, 175, 115); }
   100% {content: 'профессиные ммуникаююеж';}
 } */
 
-
-
 /*scrollbar*/
 /* width */
 ::-webkit-scrollbar {
@@ -239,4 +235,14 @@ a:hover { color: rgb(209, 175, 115); }
 /* block */
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
   background: rgb(247, 247, 247); 
+}
+
+/* selection text */
+
+::-moz-selection {
+  /* for Firefox  */
+  background: #495a79;
+}
+::selection {
+  background: #495a79;
 }
