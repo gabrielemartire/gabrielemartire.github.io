@@ -44,7 +44,8 @@ a:hover { color: rgb(209, 175, 115); }
 .code-focus{
   border: 1px solid rgba(245, 245, 245, 0.234);
   padding: 0px 4px;
-  border-radius: 3px;
+  border-radius: 7px;
+  margin-left: 2px;
 }
 
 .spot {
@@ -103,11 +104,11 @@ a:hover { color: rgb(209, 175, 115); }
 
 /* SOCIAL ICON BTNS */
 .social { text-decoration: none;}
-.twitter:hover { color: #00acee; }
+.twitter:hover { color: #00abee; }
 .linkedin:hover { color: #0a66c2; }
 .mastodon:hover { color: #563acc; }
 .github:hover { color: #575c61; }
-.telegram:hover { color: rgb(0, 136, 204); }
+.telegram:hover { color: #0088cc; }
 .gmail:hover { color: #c71610; }
 
 
